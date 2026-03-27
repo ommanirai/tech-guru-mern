@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+    <style>
+        /* 
+        selector
+        syntax:
+        selector_name{
+            attribute:value;
+            attribute:value;
+            attribute:value;
+            attribute:value;
+            attribute:value;
+        }
+
+        types:
+        1. element selector
+        2. class selector
+        3. id selector
+        */
+        /* element selector */
+        h1{
+            background-color: blue;
+        }
+
+        /* class selector */
+        .test{
+            background-color: black;
+            color: white;
+        }
+
+        /* id selector */
+        /* #container{
+            background-color: green;
+        } */
+
+        div{
+            background-color: violet;
+        }
+
+
+        /*
+        priority: 
+            id selector > class selector > element selector
+        */
+    </style>
+</head>
+
+<body>
+    <h1>Selector</h1>
+    <h1>Hello World!</h1>
+    <div class="test">style your division</div>
+    <div id="container">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim nesciunt temporibus sit doloremque. Ipsam quam officiis dicta error, enim facere quisquam officia doloremque aspernatur sunt natus labore, maiores assumenda ipsa?</div>
+
+    <div class="test" id="container">hello</div>
+</body>
+
+</html>
